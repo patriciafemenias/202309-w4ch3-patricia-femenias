@@ -58,11 +58,21 @@ html {
 
 .nav-box {
   display: flex;
-  padding: 20px;
+  padding: 15px 0;
 }
 
 .nav-item {
   padding: 5px;
   font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.subheader-box {
+  display: flex;
+  background-color: var(--header-secondary-color);
+  padding: 25px 15px;
+  justify-content: space-between;
+}
+.bought-items {
   color: var(--secondary-color);
 }
