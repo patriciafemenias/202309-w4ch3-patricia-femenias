@@ -37,3 +37,32 @@ button {
   font: inherit;
   background-color: inherit;
 }
+
+html {
+  font-family: var(--main-font-family);
+}
+
+.main-header-box {
+  display: flex;
+  background-color: var(--header-main-color);
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.main-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.nav-box {
+  display: flex;
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 5px;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
