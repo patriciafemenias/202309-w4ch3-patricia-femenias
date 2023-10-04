@@ -40,6 +40,7 @@ button {
 
 html {
   font-family: var(--main-font-family);
+  background-color: var(--main-background-color);
 }
 
 .main-header-box {
@@ -73,6 +74,39 @@ html {
   padding: 25px 15px;
   justify-content: space-between;
 }
+
 .bought-items {
   color: var(--secondary-color);
+}
+
+.form-header {
+  margin-bottom: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  left: auto;
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  margin: 5px 0;
+  flex-direction: row;
+}
+
+.input-box {
+  margin: 5px 0;
+  border: 0;
+  line-height: 2;
+}
+
+.button {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  background-color: var(--header-secondary-color);
 }
